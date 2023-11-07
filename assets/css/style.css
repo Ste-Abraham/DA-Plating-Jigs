@@ -20,15 +20,20 @@ body {
 
 /** Header **/
 header {
-    background: lightgray;
+    background-color: rgb(0, 162, 255);
+    padding: 0 1 rem;
+    position: fixed;
+    width: 100%;
 }
+
 /** Main **/
 main {
     background-color: aqua;
     /* Make main content take up any extra space to move and push down the footer to the bottom */
     flex: 1 0 auto;
 }
+
 /** Footer **/
-footer{
+footer {
     background-color: blueviolet;
 }
