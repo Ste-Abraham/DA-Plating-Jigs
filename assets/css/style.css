@@ -26,6 +26,23 @@ header {
     width: 100%;
 }
 
+/** Removing the underline from the header and nav items and giving them the correct colour **/
+ header a {
+    text-decoration: none;
+    color: rgb(248, 247, 242);
+ }
+
+ h1 {
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    
+ }
+
+ #nav-menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+ }
+
 /** Main **/
 main {
     background-color: aqua;
