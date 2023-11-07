@@ -1,0 +1,12 @@
+/** Header **/
+header {
+    background: lightgray;
+}
+/** Main **/
+main {
+    background-color: aqua;
+}
+/** Footer **/
+footer{
+    background-color: blueviolet;
+}
