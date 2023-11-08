@@ -27,21 +27,22 @@ header {
 }
 
 /** Removing the underline from the header and nav items and giving them the correct colour **/
- header a {
+header a {
     text-decoration: none;
     color: rgb(248, 247, 242);
- }
+}
 
- h1 {
+h1 {
     text-transform: uppercase;
     letter-spacing: 2.5px;
-    
- }
 
- #nav-menu {
+}
+
+#nav-menu {
     font-size: 120%;
-    letter-spacing: 3px;
- }
+    letter-spacing: 5px;
+    list-style-type: none;
+}
 
 /** Main **/
 main {
@@ -53,4 +54,30 @@ main {
 /** Footer **/
 footer {
     background-color: blueviolet;
+}
+
+/** Media query for 768px and above - i.e tablets and bigger **/
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+ #nav-menu {
+    display:flex;
+ }
+   #nav-menu > li {
+       padding-left: 1rem;
+   }
+
+
+   #logo {
+       font-size: 280%;
+       line-height: 75px;
+       margin: 0 0.5rem;
+   }
 }
