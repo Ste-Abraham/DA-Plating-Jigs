@@ -95,6 +95,13 @@ main {
     background: url(../images/welder-tools.jpeg) no-repeat center center/cover;
 }
 
+/** welder for about us page same position styles as tools **/
+#welder {
+    width: 100%;
+    height: 500px;
+    background: url(../images/Welding\ steel.jpeg) no-repeat center center/cover;
+}
+
 /** Footer **/
 footer {
     background-color: #45b6fe;
