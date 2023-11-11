@@ -52,7 +52,7 @@ main {
     flex: 1 0 auto;
     margin-top: 100px;
 }
-
+/** tools for home/index page used properties from love running project to center image and stop it distorting **/
 #tools {
     width: 100%;
     height: 500px;
