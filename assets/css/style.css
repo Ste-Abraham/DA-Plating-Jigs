@@ -24,6 +24,7 @@ header {
     padding: 0 1 rem;
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 
 /** Removing the underline from the header and nav items and giving them the correct colour **/
@@ -65,6 +66,15 @@ main {
     width: 75%;
     top: 125px;
     left: 15px;
+}
+
+#why {
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-size: 120%;  
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
