@@ -64,6 +64,17 @@ footer {
     background-color: blueviolet;
 }
 
+#footer-links {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-evenly;
+}
+
+
+
 /** Media query for 768px and above - i.e tablets and bigger **/
 @media screen and (min-width: 768px) {
 
