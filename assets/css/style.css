@@ -68,19 +68,30 @@ main {
     left: 15px;
 }
 
+/** Rules for styling the why da plating section**/
 #why {
     color: black;
     text-align: center;
     font-weight: 900;
-    font-size: 120%;  
-    margin-top: 25px;
+    font-size: 200%;
+    margin-top: 20px;
+}
+
+#why-da {
+    color: black;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 120%;
+    margin-top: 20px;
     margin-bottom: 25px;
+    padding-left: 30px;
+
 }
 
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
 #tools {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background: url(../images/welder-tools.jpeg) no-repeat center center/cover;
 }
 
