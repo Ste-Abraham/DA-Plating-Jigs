@@ -73,7 +73,10 @@ footer {
     justify-content: space-evenly;
 }
 
-
+i {
+    font-size: 180%;
+    color: rgb(248, 247, 242);
+}
 
 /** Media query for 768px and above - i.e tablets and bigger **/
 @media screen and (min-width: 768px) {
