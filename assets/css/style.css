@@ -122,6 +122,13 @@ main {
     font-weight: 600;
 }
 
+.services {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 400;
+}
+
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
 #tools {
     width: 100%;
@@ -191,7 +198,7 @@ i {
     .contactus-container {
         display: flex;
         padding-top: 40px;
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 55px;
+        padding-right: 55px;
     }
 }
