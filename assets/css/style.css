@@ -208,4 +208,13 @@ i {
         padding-left: 55px;
         padding-right: 55px;
     }
+
+    .services {
+        display: flex;
+        width: 100%;
+    }
+    .third {
+        padding: 10px;
+
+    }
 }
