@@ -109,6 +109,10 @@ main {
     font-size: 130%;
 }
 
+#map {
+    padding-top: 20px;
+}
+
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
 #tools {
     width: 100%;
