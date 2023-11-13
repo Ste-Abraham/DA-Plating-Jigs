@@ -124,9 +124,16 @@ main {
 
 .services {
     margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 120%;
     font-weight: 400;
+}
+
+.sub-headings {
+    margin-top: 20px;
+    font-size: 135%;
+    font-weight: 900;
 }
 
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
