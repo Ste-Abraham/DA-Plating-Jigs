@@ -102,6 +102,13 @@ main {
     margin-top: 80px;
 }
 
+#button {
+    background-color: #45b6fe;
+    color: rgb(248, 247, 242);
+    padding: 10px;
+    font-size: 130%;
+}
+
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
 #tools {
     width: 100%;
