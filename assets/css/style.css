@@ -131,6 +131,10 @@ main {
     align-items: center;
 }
 
+.services-img {
+    padding: 10px;
+}
+
 .sub-headings {
     margin-top: 20px;
     font-size: 135%;
@@ -212,8 +216,14 @@ i {
 
     .services {
         display: flex;
+        /* width: 100%; */
+    }
+
+    .services-img {
+        height: auto;
         width: 100%;
     }
+
     .third {
         padding: 10px;
 
