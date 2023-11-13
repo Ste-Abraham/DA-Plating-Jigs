@@ -126,8 +126,9 @@ main {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
     font-weight: 400;
+    align-items: center;
 }
 
 .sub-headings {
