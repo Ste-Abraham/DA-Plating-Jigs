@@ -98,8 +98,10 @@ main {
     color: black;
     text-align: center;
     font-weight: bolder;
-    font-size: 130%;
+    font-size: 140%;
     margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #button {
@@ -111,6 +113,13 @@ main {
 
 #map {
     padding-top: 20px;
+}
+
+.address {
+    text-align: center;
+    padding: 10px;
+    font-size: 120%;
+    font-weight: 600;
 }
 
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
@@ -177,5 +186,12 @@ i {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    .contactus-container {
+        display: flex;
+        padding-top: 40px;
+        padding-left: 70px;
+        padding-right: 70px;
     }
 }
