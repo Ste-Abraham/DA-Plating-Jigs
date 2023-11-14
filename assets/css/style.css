@@ -18,14 +18,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
 /** Header **/
 header {
     background-color: #45b6fe;
-    padding: 0 1 rem;
+    padding: 0 1rem;
     position: fixed;
     width: 100%;
     z-index: 99;
 }
+
 
 /** Removing the underline from the header and nav items and giving them the correct colour **/
 header a {
@@ -54,7 +56,10 @@ h4 {
     letter-spacing: 5px;
     list-style-type: none;
     text-align: right;
+    line-height: 2.8rem;
 }
+
+
 
 /** Main **/
 main {
@@ -63,6 +68,8 @@ main {
     margin-top: 100px;
 }
 
+
+
 /** Style rules for homepage banner - may use on all pages later **/
 #title-banner {
     background-color: #989898;
@@ -70,8 +77,12 @@ main {
     text-align: center;
     position: absolute;
     width: 75%;
-    top: 125px;
+    top: 170px;
     left: 15px;
+}
+
+#logo {
+    font-size: 1.5rem;
 }
 
 /** Rules for styling the why da plating section**/
@@ -93,13 +104,12 @@ main {
     padding-left: 30px;
 }
 
-
 #contact-us {
     color: black;
     text-align: center;
     font-weight: bolder;
     font-size: 140%;
-    margin-top: 80px;
+    margin-top: 160px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -109,6 +119,11 @@ main {
     color: rgb(248, 247, 242);
     padding: 10px;
     font-size: 130%;
+}
+
+#assembly-line {
+    width: 100%;
+    height: 300px;
 }
 
 #map {
@@ -131,8 +146,14 @@ main {
     align-items: center;
 }
 
+iframe {
+    width: 100%;
+}
+
 .services-img {
     padding: 10px;
+    width: 100%;
+    height: 250px;
 }
 
 .sub-headings {
@@ -141,12 +162,14 @@ main {
     font-weight: 900;
 }
 
+
 /** tools for home/index page used properties from love running project to center image and stop it distorting **/
 #tools {
     width: 100%;
     height: 500px;
     background: url(../images/welder-tools.jpeg) no-repeat center center/cover;
 }
+
 
 /** welder for about us page same position styles as tools **/
 #welder {
@@ -155,12 +178,14 @@ main {
     background: url(../images/Welding\ steel.jpeg) no-repeat center center/cover;
 }
 
-/** Form for contact us page **/
 
+
+/** Form for contact us page **/
 form {
     margin-top: 2rem;
     padding-left: 20px;
 }
+
 
 /** Footer **/
 footer {
@@ -184,6 +209,7 @@ i {
 /** Media query for 768px and above - i.e tablets and bigger **/
 @media screen and (min-width: 768px) {
 
+
     /* Header */
     nav {
         display: block;
@@ -199,7 +225,6 @@ i {
     #nav-menu>li {
         padding-left: 1rem;
     }
-
 
     #logo {
         font-size: 280%;
@@ -225,8 +250,8 @@ i {
 
     .third {
         padding: 10px;
-
     }
+
     .list-img {
         display: flex;
         height: auto;
@@ -239,4 +264,13 @@ i {
     #why-da {
         font-size: 150%;
     }
+
+    #title-banner {
+        top: 125px;
+    }
+
+    #contact-us {
+        margin-top: 80px;
+    }
+    
 }
